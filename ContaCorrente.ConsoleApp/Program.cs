@@ -26,6 +26,7 @@
             int usuario = 0;
             int operacao = 0;
             Contas contaSelecionada = new Contas();
+            Contas[] ContasPossiveis = [LipeJipe, PedroPedra, BenjaminTennisson];
 
             do
             {
@@ -98,6 +99,7 @@
                 }
                 else if (operacao == 3)
                 {
+                    ContasPossiveis[] - contaSelecionada;
                     Console.WriteLine("---------------------------------------------");
                     Console.WriteLine($"Saldo: {contaSelecionada.saldo} + {contaSelecionada.limite}(Limite)");
                     Console.WriteLine("---------------------------------------------");
@@ -107,6 +109,12 @@
                     Console.WriteLine("---------------------------------------------");
                     Console.WriteLine("Para qual conta deseja transferir?");
                     Console.WriteLine("---------------------------------------------");
+                    Console.WriteLine($"1 - {ContasPossiveis[0]} ");
+                    Console.WriteLine($"2 - {ContasPossiveis[1]}");
+                    Console.WriteLine("---------------------------------------------");
+
+
+
                     int beneficiado = Convert.ToInt32(Console.ReadLine());
 
                     //if beneficiado => Fulano.contaDestino
