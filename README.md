@@ -1,28 +1,28 @@
-# ?? Conta Corrente - Console App em C#
+# Conta Corrente - Console App em C#
 
 ![](https://i.imgur.com/YPeLuXh.gif)
-Este È um pequeno sistema de Conta Corrente feito em C#, rodando via console, com funcionalidades b·sicas como saque, depÛsito, transferÍncia e extrato.
+Este √© um pequeno sistema de Conta Corrente feito em C#, rodando via console, com funcionalidades b√°sicas como saque, dep√≥sito, transfer√™ncia e extrato.
 
-## ?? Funcionalidades
+## Funcionalidades
 
-- ?? Escolha de usu·rio entre contas prÈ-definidas
-- ?? Saque com verificaÁ„o de saldo e limite
-- ?? DepÛsito com atualizaÁ„o de saldo
-- ?? TransferÍncia entre contas diferentes
-- ?? ExibiÁ„o de extrato com movimentaÁıes
-- ? Encerramento do programa (opÁ„o 4 no menu inicial)
+- ?? Escolha de usu√°rio entre contas pr√©-definidas
+- ?? Saque com verifica√ß√£o de saldo e limite
+- ?? Dep√≥sito com atualiza√ß√£o de saldo
+- ?? Transfer√™ncia entre contas diferentes
+- ?? Exibi√ß√£o de extrato com movimenta√ß√µes
+- ? Encerramento do programa (op√ß√£o 4 no menu inicial)
 
-## ?? Estrutura
+## Estrutura
 
-- `Contas.cs`: classe que representa uma conta banc·ria.
-- `Movimentacao.cs`: classe que registra operaÁıes realizadas.
-- `Program.cs`: cÛdigo principal da aplicaÁ„o (console).
+- `Contas.cs`: classe que representa uma conta banc√°ria.
+- `Movimentacao.cs`: classe que registra opera√ß√µes realizadas.
+- `Program.cs`: c√≥digo principal da aplica√ß√£o (console).
   
-> Todas as movimentaÁıes s„o armazenadas em um array fixo de 10 itens por conta.
+> Todas as movimenta√ß√µes s√£o armazenadas em um array fixo de 10 itens por conta.
 
-## ?? Como rodar
+## Como rodar
 
-1. Clone o repositÛrio ou baixe os arquivos.
+1. Clone o reposit√≥rio ou baixe os arquivos.
 2. Abra o projeto no Visual Studio, Rider ou VS Code com o C# configurado.
 3. Compile e execute.
 4. Use o menu interativo para operar com as contas.
