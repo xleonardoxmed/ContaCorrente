@@ -5,12 +5,12 @@ Este é um pequeno sistema de Conta Corrente feito em C#, rodando via console, c
 
 ## Funcionalidades
 
-- ?? Escolha de usuário entre contas pré-definidas
-- ?? Saque com verificação de saldo e limite
-- ?? Depósito com atualização de saldo
-- ?? Transferência entre contas diferentes
-- ?? Exibição de extrato com movimentações
-- ? Encerramento do programa (opção 4 no menu inicial)
+- Escolha de usuário entre contas pré-definidas
+- Saque com verificação de saldo e limite
+- Depósito com atualização de saldo
+- Transferência entre contas diferentes
+- Exibição de extrato com movimentações
+- Encerramento do programa (opção 4 no menu inicial)
 
 ## Estrutura
 
